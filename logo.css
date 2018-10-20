@@ -1,0 +1,83 @@
+body{
+background-image:url(bridge.jpg);
+background-position:center;
+font-family:serif;
+}
+
+.logoinbox{
+width:300px;
+height:400px;
+background:grey;
+
+top:40%;
+left:17%;
+position:absolute;
+transform:translate(50%,-50%);
+box-sizing:border-box;
+border-radius:20%
+}
+
+
+
+
+
+.avatar{
+background-color:black;
+width:100px;
+border-radius:50%;
+position:absolute;
+top:-70px;
+left:83px;
+}
+h1{
+padding:20px 27px 0px;
+text-decoration:underline;
+color:white;
+}
+.logoinbox p{
+margin:0;
+padding:0px 20px 10px;
+font-weight:bold;
+color:white;
+}
+.logoinbox input{
+
+widht:100%;
+margin-bottom:20px;
+
+}
+.logoinbox input[type="text"], input[type="password"]
+{
+border:none;
+border-bottom:1px solid #fff;;
+height:40px;
+color:#fff;
+font-size:16px;
+background:black;
+width:-80px;
+padding:10px 20px 10px;
+}
+.logoinbox input[type="submit"]
+{
+border:none;
+outline:none;
+widht:-40px;
+height:40px;
+background:#fb2525;
+color:#fff;
+font-size:18px;
+border-radius:20px;
+}
+.logoinbox input[type="submit"]:hover
+{
+cursor:pointer;
+background:#ffc107;
+color:#000;
+
+
+
+
+
+
+
+
